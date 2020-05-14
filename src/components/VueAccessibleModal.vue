@@ -15,7 +15,7 @@
       @keyup.esc="close"
       @keydown.tab="focusHandler"
     >
-      <div class="v-modal__backdrop" @click="close">
+      <div class="v-modal__backdrop">
         <slot name="backdrop"></slot>
       </div>
       <div class="v-modal__inner">
